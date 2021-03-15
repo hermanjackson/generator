@@ -18,5 +18,5 @@ let generateexcuse = function() {
   let howindex = Math.floor(Math.random() * how.length);
   let whatindex = Math.floor(Math.random() * what.length);
 
-  return who[whoindex] + "" + how[howindex] + "" + what[whatindex];
+  return who[whoindex] + " " + how[howindex] + " " + what[whatindex];
 };
